@@ -1,5 +1,5 @@
 #include "findfilesconverter.h"
-
+#include <algorithm>
 FindFilesConverter::FindFilesConverter(Searchable searchable)
     : searchNames(std::move(searchable))
 {

@@ -22,7 +22,7 @@ void ToUpperCaseConverter::convert()
 {
     char literal;
     while(file >> literal) {
-        result << std::toupper(literal);
+        result << static_cast<char>(std::toupper(literal));
     }
     file.close();
     result.close();
