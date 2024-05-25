@@ -21,6 +21,6 @@ private:
     using ResultStream = std::ofstream;
 
     Searchable searchNames {};
-    FileStream file {};
+    File file {};
     ResultStream result {};    
 };
